@@ -342,7 +342,7 @@ public:
 	static int stop_by_stmt(void);
 	static int stop_by_stmt(int p);
 
-	static void monitored_funcs(string fnames);
+	static void monitored_funcs(const string &fnames);
 
 	static bool const_as_condition(void);
 	static bool const_as_condition(bool p);
