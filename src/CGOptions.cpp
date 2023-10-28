@@ -586,7 +586,7 @@ CGOptions::has_conflict(void)
 }
 
 void
-CGOptions::monitored_funcs(std::string fnames)
+CGOptions::monitored_funcs(const std::string &fnames)
 {
 	parse_string_options(fnames, OutputMgr::monitored_funcs_);
 }
